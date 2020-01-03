@@ -1,6 +1,8 @@
-package com.curso.core;
+package com.curso.core.service;
 
 import java.util.List;
+
+import com.curso.core.model.Persona;
 
 public interface PersonaService {
 

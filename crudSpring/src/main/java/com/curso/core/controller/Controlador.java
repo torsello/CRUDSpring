@@ -1,9 +1,12 @@
-package com.curso.core;
+package com.curso.core.controller;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import com.curso.core.model.Persona;
+import com.curso.core.service.PersonaService;
 
 
 @CrossOrigin(origins="http://127.0.0.1:4200", maxAge=3600)

@@ -1,9 +1,13 @@
-package com.curso.core;
+package com.curso.core.service.imp;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.curso.core.model.Persona;
+import com.curso.core.repository.PersonaRepositorio;
+import com.curso.core.service.PersonaService;
 
 @Service
 public class PersonaServiceImp implements PersonaService{

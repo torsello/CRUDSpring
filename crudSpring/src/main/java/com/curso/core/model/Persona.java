@@ -1,4 +1,4 @@
-package com.curso.core;
+package com.curso.core.model;
 
 import javax.persistence.*;
 
