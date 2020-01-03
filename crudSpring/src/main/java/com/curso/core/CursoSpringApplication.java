@@ -1,13 +1,15 @@
-package com.crud.crudSpring;
+package com.curso.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrudSpringApplication {
+public class CursoSpringApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CrudSpringApplication.class, args);
+		SpringApplication.run(CursoSpringApplication.class, args);
 	}
+	
+	
 
 }
